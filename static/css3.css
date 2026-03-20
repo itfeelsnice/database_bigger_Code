@@ -1,0 +1,18 @@
+
+body{
+    overflow: hidden;
+    inset: 0px;
+    background-image: linear-gradient(to bottom, black, white, transparent),
+                      linear-gradient(to left, black, white, transparent),
+                      linear-gradient(to right, black, white, transparent),
+                      linear-gradient(to top, black, white, transparent);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#a1{
+    display: grid;
+    place-items: center;
+    margin-top: 20%;
+}

@@ -11,23 +11,88 @@ body{
     background-attachment: fixed;
 }
 
+#div1{
+    background-color: white;
+    width: 25vmax;
+    height: 25vmax;
+    position: relative;
+    border-radius: 50px;
+    top: 10vmax;
+    left: 35%;
+    box-shadow: 5px 5px 30px gray, 5px 5px 30px gray;
+}
 
+#inp1{
+    position: absolute;
+    top: 6vmax;
+    left: 4.5vmax;
+    width: 15vmax;
+    height: 2vmax;
+    font-size: 24px;
+}
 
+#btn1{
+    position: absolute;
+    top: 13vmax;
+    left: 9vmax;
+    width: 7vmax;
+    height: 2vmax;
+    font-size: 24px;
+}
 
+#link1{
+    position: absolute;
+    top: 23vmax;
+    left: 22vmax;
+    color: black;
+}
 
+#a2{
+    position: absolute;
+    left: 75%;
+    top: 90%;
+}
 
+#a3{
+    position: absolute;
+    left: 36%;
+    top: 80%;
+}
 
+#a1{
+    position: absolute;
+    left: 43%;
+    top: 2%; 
+    font-size: 40px;
+}
 
+#btn2{
+    background-color: white;
+    width: 10vmax;
+    height: 3vmax;
+    border-radius: 30px;
+    font-size: 30px;
+    position: relative;
+    left: 90%;
+    padding: 5px;
+}
 
+.add1{
+    animation: rotate1;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
 
-
-
-
-
-
-
-
-
+@keyframes rotate1{
+    0%{transform: rotateZ(0deg)}
+    20%{transform: rotateZ(120deg)}
+    40%{transform: rotateZ(240deg)}
+    60%{transform: rotateZ(360deg)}
+    80%{transform: rotateZ(180deg)}
+    1000%{transform: rotateZ(0deg)}
+}
 
 
 

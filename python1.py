@@ -27,7 +27,8 @@ def def1():
                                 collumns TEXT PRIMARY KEY,
                                 username TEXT)""")
 
-            execute1.execute("INSERT INTO values1 (username) VALUES (?)", (value2,))
+            execute1.execute("INSERT INTO values1 (username) VALUES (?)", (value2,)) # man i didnt find the problme but the only 
+            # problem it was because of ,(values2) because i didnt put (valus2,)
 
             create_db.commit()
             create_db.close()
@@ -55,10 +56,12 @@ def def3():
 start1.run(debug=True)
 
 
+# started to code at 7.10 ended to code at 7.52
+# all python is done the next steps to finish are css and javascript
+# on this day 19.03.2026
 
-
-
-
+# so like i dont even know what to say if i am still coding on 20.03.2026 or 21.03.2026 because the clock is 00.37
+# but i will say i started to code at 00.37 on 21.03.2026 i will finish this tonight
 
 
 
